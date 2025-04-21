@@ -1,0 +1,13 @@
+
+Model computed A/D coefficients : 
+CL_0     = 0.365
+CL_alpha = 4.972
+CL_q     = 37.3
+CL_dele  = 0.26
+CD_0     = 0.036049190498768854
+CD_alpha = 0.04058768844463473
+CD_dele  = 0.02583807362495994
+Cm_0     = 0.05
+Cm_alpha = -0.48
+Cm_q     = -11.3
+Cm_dele  = -1.008

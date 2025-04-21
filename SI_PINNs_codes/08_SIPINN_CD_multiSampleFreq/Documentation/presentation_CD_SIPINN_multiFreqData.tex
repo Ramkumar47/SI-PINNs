@@ -1,0 +1,43 @@
+%&tex
+\documentclass{beamer}
+
+\usepackage{graphicx}
+
+\usepackage{cleveref}
+\usepackage{subcaption}
+% \usepackage[dvipsnames]{xcolor}
+\usepackage{xcolor}
+
+\title{\(C_D\) estimation using SI-PINN \\ with multi-frequency sampled data \\ and \\ comparison with Least-Squares}
+
+\begin{document}
+
+\begin{frame}
+	\maketitle
+\end{frame}
+
+%------------------------------------------------------------------------------
+\begin{frame}
+	\frametitle{Governing Equation}
+
+	\begin{align*}
+		\frac{dV}{dt} &= -\frac{\bar{q}S}{m}C_D + \frac{T}{m}cos(\alpha) + g sin(\alpha - \theta)
+	\end{align*}
+
+	\vspace{0.5cm}
+
+	\begin{align*}
+		\frac{dV}{dt} &= f\left(V, \alpha, \theta, C_D\right)
+	\end{align*}
+
+	\vspace{0.5cm}
+
+	\begin{align*}
+		C_D = C_{D_0} + C_{D_{\alpha}} \alpha + C_{D_{\delta_e}} \delta_e
+	\end{align*}
+
+\end{frame}
+
+\input{content.tex}
+
+\end{document}
